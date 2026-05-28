@@ -436,6 +436,19 @@ body{
   }
 }
 
+@media (min-width: 600px) {
+    .landing{
+    flex-direction: column;
+    height: 140vh;
+  }
+
+  .tv-screen{
+    width: 100%;
+    height: fit-content;
+    border-radius: 0px;
+  }
+}
+
 @media (max-width: 480px) {
   .container{
     margin-top: 0%;
